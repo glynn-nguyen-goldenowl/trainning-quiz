@@ -66,6 +66,22 @@ Choose as many answers as you see fit.
 
 **Answer:B**
 
+## Which of the following is true about Gradle?
+Choose as many answers as you see fit.
+
+<ol type="a">
+  <li>Gradle is an automated build system used by Android Studio to build your apps.</li>
+  <li>Gradle handles installing your app on a device.</li>
+  <li>You can configure Android-specific options for your project in your app’s build.gradle file.</li>
+  <li>The gradle configuration for your project cannot change after you initially create the project.</li>
+</ol>
+**Answer:A, C**
+
+
+
+
+
+
 
 
 
