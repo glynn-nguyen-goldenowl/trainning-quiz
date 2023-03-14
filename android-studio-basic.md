@@ -75,7 +75,8 @@ Choose as many answers as you see fit.
   <li>You can configure Android-specific options for your project in your app’s build.gradle file.</li>
   <li>The gradle configuration for your project cannot change after you initially create the project.</li>
 </ol>
-**Answer:A, C**
+
+**Answer:A,B,C**
 
 
 
