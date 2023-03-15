@@ -82,3 +82,30 @@ fun createMessage(name: String, location: String, age: Int) {
 </ol>
 
 **Answer: A**
+
+## Which of the following is false about collections and higher order functions in Kotlin?
+
+<ol type="a">
+  <li>Lists, maps, and sets can all use higher order functions.</li>
+  <li>Lists are unordered, while maps and sets are ordered data types.</li>
+  <li>Like the elements in a set, the keys in a map must be unique. However, multiple keys can map to the same value.</li>
+  <li>Higher order functions such as map and filter can take lambda functions as parameters.</li>
+</ol>
+
+**Answer: B**
+
+## Given the following code, what is the result of oneWordCities[1]?
+```
+val cities = listOf("Jeddah", "Bengaluru", "Shenzhen", "Abu Dhabi", "Mountain View", "Tripoli", "Bengaluru", "Lima", "Mandalay", "Tripoli")
+val oneWordCities = cities.toSet().toList().filter { !it.contains(" ")}.sorted()
+```
+
+<ol type="a">
+  <li>Tripoli</li>
+  <li>Abu Dhabi</li>
+  <li>Jeddah</li>
+  <li>Bengaluru</li>
+</ol>
+
+**Answer: C**
+
