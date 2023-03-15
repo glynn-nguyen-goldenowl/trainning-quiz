@@ -109,3 +109,17 @@ val oneWordCities = cities.toSet().toList().filter { !it.contains(" ")}.sorted()
 
 **Answer: C**
 
+## How can the apply function in Kotlin be used to configure an object?
+<ol type="a">
+  <li>It can directly apply the object.</li>
+  <li>It can apply a set of assignments to the object.</li>
+  <li>It can apply new instances from the object.</li>
+  <li>It is not recommended to use apply to configure an object.</li>
+</ol>
+
+**Answer: B**
+
+
+
+
+
