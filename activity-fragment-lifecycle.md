@@ -83,6 +83,68 @@ Choose as many answers as you see fit.
 
 **Answer: D**
 
+## True or False: onCreateView() is only called once for a fragment’s entire lifecycle.
+<ol type="a">
+  <li>True.</li>
+  <li>False.</li>
+</ol>
+**Answer: B**
+
+## Which of the following is a benefit of using fragments?
+<ol type="a">
+  <li>Navigation between fragments allows for more sophisticated user interface patterns, such as tab bars.</li>
+  <li>Using multiple fragments within an activity allows for an adaptive layout across multiple screen sizes.</li>
+  <li>The same fragments can be reused across multiple activities.</li>
+  <li>All of the above.</li>
+</ol>
+**Answer: D**
+
+## In the fragment lifecycle, which of the following tasks should be performed in onViewCreated()?
+Choose as many answers as you see fit.
+
+<ol type="a">
+  <li>Inflating the layout</li>
+  <li>Binding view objects to properties in your fragment</li>
+  <li>Configuring the options menu</li>
+  <li>Setting properties of individual views, such as a recycler view’s adapter</li>
+</ol>
+**Answer: B,D**
+
+## In the fragment lifecycle, which of the following tasks should be performed in onCreateView()?
+
+<ol type="a">
+  <li>Inflating the layout</li>
+  <li>Binding view objects to properties in your fragment</li>
+  <li>Configuring the options menu</li>
+  <li>Setting properties of individual views, such as a recycler view’s adapter</li>
+</ol>
+
+**Answer: A**
+
+## Given the code for navigating between two fragments in a note-taking app, a list of books and a list of notes, which of the following is true about the navigation graph file?
+```
+val action = BooksListFragmentsDirections.actionBooksListToNotesList(bookIndex = index)
+holder.view.findNavController().navigate(action)
+```
+
+<ol type="a">
+  <li>Both the books list and notes list are destinations.</li>
+  <li>The books list fragment has an argument called bookIndex.</li>
+  <li>There’s an action defined on the navigation graph that goes from the books list to the notes list.</li>
+  <li>A, B, and C are true.</li>
+  <li>Only A and C are true.</li>
+</ol>
+
+**Answer:D**
+
+
+
+
+
+
+
+
+
 
 
 
