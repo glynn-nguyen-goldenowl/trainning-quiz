@@ -110,10 +110,31 @@ Choose as many answers as you see fit.
   <li>RecyclerView helps save processing time, which can help scrolling through a list smoother.</li>
   <li>RecyclerView is designed to be efficient for lists by reusing views that have scrolled off the screen.</li>
   <li>RecyclerView automatically incorporates Material Design components.</li>
-
 </ol>
 
 **Answer:A,C,D**
+
+
+## Using a data binding layout expression, what’s the correct syntax for adding an attribute to the button in this layout in order to bind a click listener to it?
+```
+<Button
+    android:id="@+id/next_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/next" />
+```
+
+<ol type="a">
+  <li>android:onClick="@{detailFragment.next()}"</li>
+  <li>android:onClick="@{(Int) -> detailFragment()}"</li>
+  <li>android:click="@{() -> detailFragment.next()}"</li>
+  <li>android:onClick="@{() -> detailFragment.next()}"</li>
+</ol>
+
+**Answer:D**
+
+
+
 
 
 
