@@ -16,6 +16,7 @@ Choose as many answers as you see fit.
   <li>always after onDestroy</li>
   <li>after onDestroy, if it not a configuration change.</li>
 </ol>
+
 **Answer: C**
 
 ## True or False: You should execute time-consuming tasks and I/O requests in your Activity/Fragment.
@@ -23,6 +24,7 @@ Choose as many answers as you see fit.
   <li>True</li>
   <li>False</li>
 </ol>
+
 **Answer: B**
 
 ## Why should you initialize and store LiveData in your ViewModel instead of a UI Controller?
@@ -33,6 +35,7 @@ Choose as many answers as you see fit.
   <li>To hide or separate implementation details making your app more flexible.</li>
   <li>All of the above</li>
 </ol>
+
 **Answer: D**
 
 ## Which of the following allows you to use observe for changes?
@@ -42,6 +45,7 @@ Choose as many answers as you see fit.
   <li>any property in a ViewModel</li>
   <li>any property in a ViewModel or LiveData object</li>
 </ol>
+
 **Answer: A**
 
 ## True or False: It’s OK for a ViewModel to directly reference a View or LifecycleOwner class.
@@ -49,6 +53,7 @@ Choose as many answers as you see fit.
   <li>True</li>
   <li>False</li>
 </ol>
+
 **Answer: B**
 
 ## True or False: You can use the same ViewModel for multiple Activities or Fragments to share data.
@@ -57,6 +62,7 @@ Choose as many answers as you see fit.
   <li>True</li>
   <li>False</li>
 </ol>
+
 **Answer: A**
 
 ## What is the correct way to access the shared view model using the Kotin property delegate approach?
@@ -66,6 +72,7 @@ Choose as many answers as you see fit.
   <li>val viewModel: OrderViewModel by sharedViewModels()</li>
   <li>val viewModel: OrderViewModel by fragmentViewModels()</li>
 </ol>
+
 **Answer: B**
 
 
